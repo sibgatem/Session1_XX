@@ -81,3 +81,11 @@ C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\Session1_XX.csproj
 C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\Session1_XX.csproj.CopyComplete
 C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\Session1_XX.exe
 C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\Session1_XX.pdb
+C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\AdminWindow.g.cs
+C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\UsersWIndow.g.cs
+C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\AdminWindow.baml
+C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\UsersWIndow.baml
+C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\AddUser.g.cs
+C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\EditUser.g.cs
+C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\AddUser.baml
+C:\Users\e-sib\source\repos\Session1_XX\Session1_XX\obj\Debug\EditUser.baml

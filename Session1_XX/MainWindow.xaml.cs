@@ -7,8 +7,8 @@ namespace Session1_XX
     public partial class MainWindow : Window
     {
         DataSet1 dataset;
-        UsersTableAdapter usersTA;
-        QueriesTableAdapter authTA;
+        private UsersTableAdapter usersTA;
+        private QueriesTableAdapter authTA;
         public MainWindow()
         {
             InitializeComponent();
@@ -20,12 +20,22 @@ namespace Session1_XX
         {
             if (AuthRole(TxtUsername.Text, TxtPassword.Password.ToString())>0)
             {
-                
+                if (AuthRole(TxtUsername.Text, TxtPassword.Password.ToString()) ==1)
+                {
+                    AdminWindow adminWindow = new AdminWindow();
+                    adminWindow.Show();
+                }
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Пользователь не найден!");
             }
         }
-        private int? AuthRole (string login, string password)
+
+        private int? AuthRole(string login, string password)
         {
-            int? role = authTA.Auth(login, password);
+            int? role = authTA.UserRole((int)authTA.user_login(login, password));
             return role;
         }
 
